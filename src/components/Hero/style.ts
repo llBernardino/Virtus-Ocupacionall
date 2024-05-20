@@ -1,6 +1,5 @@
 import styled from '@emotion/styled'
 
-const background = () => `url('${'paper'}')`
 export const Content = styled.div`
   
 `
@@ -26,9 +25,6 @@ export const TextHero = styled.p`
     font-weight: 400;
 `
 export const Image = styled.img`
-
-`
-export const Boxtext = styled.div`
 
 `
 

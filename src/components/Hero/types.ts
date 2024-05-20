@@ -1,9 +1,6 @@
 
 export interface HeroTypes {
  
-   
-    
-
     
   }
  
