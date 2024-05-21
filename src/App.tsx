@@ -6,6 +6,7 @@ import { About } from './components/About';
 import { Gvirtus } from './components/Gvirtus';
 import { Services } from './components/services';
 import { Products } from './components/Products';
+import { Plans } from './components/Plans';
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
           <Gvirtus/>
           <Services/>
           <Products/>
+          <Plans/>
       </BrowserRouter>
        
   );
