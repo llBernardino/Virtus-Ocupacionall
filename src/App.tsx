@@ -5,6 +5,8 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Gvirtus } from './components/Gvirtus';
 import { Services } from './components/services';
+import { Products } from './components/Products';
+
 export const App = () => {
   return (
 
@@ -14,6 +16,7 @@ export const App = () => {
           <About/>
           <Gvirtus/>
           <Services/>
+          <Products/>
       </BrowserRouter>
        
   );

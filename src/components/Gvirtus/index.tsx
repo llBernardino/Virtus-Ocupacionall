@@ -19,7 +19,7 @@ import { CardG } from './comp/card';
       <Content>
         <BackgroundGvirtus> 
           <Container maxWidth='lg'>
-            <Box display="flex" flexWrap= 'wrap' gap={2} justifyContent='space-between'>
+            <Box display="flex" flexWrap= 'wrap' gap={2} justifyContent='center'>
               <Box my={4} display='flex' alignItems='start' p={2} flexDirection = 'column' justifyContent='center' maxWidth={770}>
                 <Title>
                 O GRUPO VIRTUS

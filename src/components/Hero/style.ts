@@ -5,11 +5,11 @@ export const Content = styled.div`
 `
 
 export const BackgroundHero = styled.div`
-    min-height:300px;
+    padding:60px 0px;
     display: flex;
     background-image: linear-gradient(90deg,  #64CBE8 0%,  #64CEB8 100%)
 `
-export const Title = styled.h1`
+export const Title = styled.h2`
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
     font-size: 40px;

@@ -4,8 +4,9 @@ export const Content = styled.div`
   
 `
 export const BackgroundAbout = styled.div`
-    min-height:300px;
+    padding:60px 0px;
     display: flex;
+
     
 `
 export const Title = styled.h2`
@@ -19,6 +20,7 @@ export const TextAbout = styled.p`
 font-family: "Roboto", Sans-serif;
 font-size: 17px;
 font-weight: 400;
+color:#7a7a7a;
 `
 export const Image = styled.img`
 

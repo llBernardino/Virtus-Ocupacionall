@@ -12,7 +12,7 @@ import aboutimg from '../../imgs/sobreimg.png';
       <Content>
         <BackgroundAbout> 
           <Container maxWidth='lg'>
-            <Box display="flex" flexWrap= 'wrap' gap={2} justifyContent='space-between'>
+            <Box display="flex" flexWrap= 'wrap' gap={2} justifyContent='center'>
               <Box my={4} display='flex' alignItems='start' p={2} flexDirection = 'column' justifyContent='center' maxWidth={770}>
                 <Title>
                 SOBRE NÓS

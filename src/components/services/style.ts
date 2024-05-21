@@ -4,7 +4,7 @@ export const Content = styled.div`
   
 `
 export const BackgroundServices = styled.div`
-    min-height:300px;
+    padding:60px 0px;
     display: flex;
     background-color: #2baedc;
     
