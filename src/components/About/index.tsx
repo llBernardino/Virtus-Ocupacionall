@@ -28,11 +28,10 @@ import aboutimg from '../../imgs/sobreimg.png';
                 <Image alt="Virtus" src={aboutimg} width={235} height={279} />
               </Box>
             </Box>
-            <Box textAlign={'center'}>
+            <Box textAlign={'center'} >
               <Titlesm>HISTÓRICO</Titlesm>
               <TextAbout>A VIRTUS Ocupacional nasceu do êxito e respeito adquirido do Grupo VIRTUS, com 13 anos no mercado oferecendo o melhor a seus clientes.</TextAbout>
             </Box>
-            
             <Grid container spacing={2} textAlign={'center'} justifyContent='center'>
               <Grid sm={12} md={4} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
                 <Box>
@@ -52,7 +51,7 @@ import aboutimg from '../../imgs/sobreimg.png';
                   <TextAbout>Humanidade, empatia, verdade, transparência, cooperação, humildade, simplicidade, iniciativa, responsabilidade, respeito, tolerância, generosidade, aprendizado contínuo, agilidade e forte senso do outro.</TextAbout>
                 </Box>
               </Grid>
-          </Grid>
+            </Grid>
           </Container>
         </BackgroundAbout>
     </Content>
