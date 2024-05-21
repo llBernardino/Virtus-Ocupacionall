@@ -20,7 +20,7 @@ import heroimg from '../../imgs/heroimg.png';
                 <Button variant='contained'>Agendar uma demonstração gratuita</Button> 
               </Box>
               <Box my={4} display='flex' alignItems='center' p={2} justifyContent='center' >
-                <Image alt="Mountains" src={heroimg} width={420} height={420} />
+                <Image alt="Mountains" src={heroimg}  />
               </Box>
             </Box>
           </Container>

@@ -7,6 +7,7 @@ import { Gvirtus } from './components/Gvirtus';
 import { Services } from './components/services';
 import { Products } from './components/Products';
 import { Plans } from './components/Plans';
+import { Blog } from './components/Blog';
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
           <Services/>
           <Products/>
           <Plans/>
+          <Blog/>
       </BrowserRouter>
        
   );

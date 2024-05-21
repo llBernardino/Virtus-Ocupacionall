@@ -25,6 +25,11 @@ export const TextHero = styled.p`
     font-weight: 400;
 `
 export const Image = styled.img`
-
+    width:420px;
+    height:auto;
+    @media (max-width: 768px) {
+        width:280px;
+        height:auto;
+    }
 `
 

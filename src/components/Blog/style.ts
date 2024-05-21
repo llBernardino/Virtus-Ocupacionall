@@ -3,8 +3,7 @@ import styled from '@emotion/styled'
 export const Content = styled.div`
   
 `
-
-export const BackgroundProducts = styled.div`
+export const BackgroundBlog = styled.div`
     padding:60px 0px;
     display: flex;
     
@@ -13,23 +12,22 @@ export const Title = styled.h2`
     font-family: "Roboto", Sans-serif;
     font-size: 48px;
     font-weight: 600;
-    color: #6ec1e4;
-    margin-bottom:8px;
+    color: #2baedc;
+    
 `
-export const TextProducts = styled.p`
+export const TextBlog = styled.p`
     font-family: "Roboto", Sans-serif;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400;
-    display: flex;
-    color:#54595f;
-    align-items: center;
-    margin:5px 0;
+    color:#ffffff;
 `
 export const Image = styled.img`
 
-    @media (max-width: 768px) {
-        width:280px;
-        height:auto;
-    }
 `
+export const Titlesm = styled.h2`
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 
+`
