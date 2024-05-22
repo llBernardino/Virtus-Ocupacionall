@@ -5,9 +5,7 @@ import {
   Tab,
   Tabs,
   Toolbar,
-  Typography,
   useMediaQuery,
-  useTheme,
 } from "@mui/material";
 import {Image} from './style'
 import logoheader from '../../imgs/logoheader.png';
@@ -15,6 +13,7 @@ import {DrawerComp} from "./drawer";
 import PersonIcon from '@mui/icons-material/Person';
 import { ThemeProvider } from '@mui/material/styles';
 import {theme} from '../../themes/themes'
+import { Link } from "react-router-dom";
 export const Header = () => {
   const [value, setValue] = useState();
   console.log(theme);
@@ -23,7 +22,7 @@ export const Header = () => {
   return (
     <ThemeProvider theme={theme}>
       <React.Fragment>
-        <AppBar sx={{ background: "#FFFFFF" , paddingTop:'20px',paddingBottom:'20px' ,opacity: 0.9}}>
+        <AppBar sx={{ background: "#FFFFFF" , paddingTop:'13px',paddingBottom:'13px' ,opacity: 0.9}}>
           <Toolbar sx={{ maxWidth:'1110px', margin:'0px auto', width:'100%' , justifyContent:'space-between'}}>
             <Image alt="Virtus" src={logoheader} width={192} height={60} />
               {isMatch ? (
@@ -32,20 +31,14 @@ export const Header = () => {
                 </>
               ) : (
               <>
-                <Tabs
-                  sx={{ marginLeft: "auto"}} 
-                  indicatorColor="secondary"
-                  textColor="secondary"
-                  value={value}
-                  onChange={(e, value) => setValue(value)}
-                >
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Home" />
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Quem Somos" />
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Serviços" />
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Produtos" />
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Planos" />
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Blog" />
-                  <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Contato" />
+              <Tabs sx={{ marginLeft: "auto" }} indicatorColor="secondary" textColor="secondary" value={value} onChange={(e, value) => setValue(value)}>
+                  <Tab component={Link} to='/Hero' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Home" />
+                  <Tab component={Link} to='/About' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Quem Somos" />
+                  <Tab component={Link} to='/Services' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Serviços" />
+                  <Tab component={Link} to='/Products' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Produtos" />
+                  <Tab component={Link} to='/Plans' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Planos" />
+                  <Tab component={Link} to='/Blog' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Blog" />
+                  <Tab component={Link} to='/Contact' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Contato" />
                 </Tabs>
                 <Button sx={{ marginLeft: "auto" , color:'white' }} variant="contained"  startIcon={< PersonIcon/>} color="success">
                   Área do cliente

@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const Content = styled.div`
-  
+
 `
 export const BackgroundContact = styled.div`
     padding:60px 0px;

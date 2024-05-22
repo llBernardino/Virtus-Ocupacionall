@@ -5,6 +5,7 @@ export const Content = styled.div`
 `
 
 export const BackgroundHero = styled.div`
+
     padding:60px 0px;
     display: flex;
     background-image: linear-gradient(90deg,  #64CBE8 0%,  #64CEB8 100%)

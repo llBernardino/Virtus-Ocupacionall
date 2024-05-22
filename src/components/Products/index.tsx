@@ -1,4 +1,3 @@
-import { ProductsTypes } from './types'
 import {
     Content,BackgroundProducts,
     Title, Image
