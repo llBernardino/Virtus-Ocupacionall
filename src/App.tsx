@@ -9,6 +9,7 @@ import { Products } from './components/Products';
 import { Plans } from './components/Plans';
 import { Blog } from './components/Blog';
 import { Contact } from './components/Contact';
+import { Header } from './components/Header/header';
 
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
           <Plans/>
           <Blog/>
           <Contact/>
+          <Header/>
       </BrowserRouter>
        
   );
