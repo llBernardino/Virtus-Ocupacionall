@@ -5,13 +5,14 @@ import {
     Titlesm,
     TextContactB
   } from './style'
+  import {theme} from '../../themes/themes'
   import gvirtusimg from '../../imgs/sobreimg.png';
-import { Box,  Button,  Container, Grid, TextField, } from '@mui/material';
+import { Box,  Button,  Container, Grid, TextField, ThemeProvider, } from '@mui/material';
 
   export const Contact = () => {
 
     return ( 
-      <Content>
+      <ThemeProvider theme={theme}>
         <BackgroundContact> 
           <Container maxWidth='lg'>
             <Box textAlign='center'>
@@ -73,14 +74,14 @@ import { Box,  Button,  Container, Grid, TextField, } from '@mui/material';
                     fullWidth
                     margin="dense"
                   />
-                  <Button variant="contained" color="primary" >
+                  <Button variant="contained" color="success" sx={{ color: "white", borderRadius:'25px'}} >
                     Enviar
                   </Button>
                 </Grid>
               </Grid>
           </Container>
         </BackgroundContact>
-    </Content>
+    </ThemeProvider>
       
     );
   }

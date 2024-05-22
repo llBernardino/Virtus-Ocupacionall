@@ -1,8 +1,5 @@
 import styled from '@emotion/styled'
 
-export const Content = styled.div`
-  
-`
 
 export const BackgroundHero = styled.div`
 

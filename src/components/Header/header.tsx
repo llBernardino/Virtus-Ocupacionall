@@ -31,7 +31,7 @@ export const Header = () => {
                 </>
               ) : (
               <>
-              <Tabs sx={{ marginLeft: "auto" }} indicatorColor="secondary" textColor="secondary" value={value} onChange={(e, value) => setValue(value)}>
+                <Tabs sx={{ marginLeft: "auto" }} indicatorColor="secondary" textColor="secondary" value={value} onChange={(e, value) => setValue(value)}>
                   <Tab component={Link} to='/Hero' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Home" />
                   <Tab component={Link} to='/About' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Quem Somos" />
                   <Tab component={Link} to='/Services' sx={{ fontWeight: '600', fontSize: '14px', fontFamily: '"Roboto", Sans-serif', color: '#7a7a7a' }} label="Serviços" />

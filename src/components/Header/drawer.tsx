@@ -28,9 +28,7 @@ export const DrawerComp = () => {
               <ListItemIcon>
                 <ListItemText>
                   <Link to='/Hero'>
-                    <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Home" />
-                  </Link>
-                </ListItemText>
+                    <Tab sx={{ fontWeight:'600', fontSize:'14px', fontFamily:'"Roboto", Sans-serif', color:'#7a7a7a'}}  label="Home" /></Link></ListItemText>
               </ListItemIcon>
             </ListItemButton>
             <ListItemButton>
@@ -79,7 +77,7 @@ export const DrawerComp = () => {
         <List>
             <ListItemButton >
               <ListItemIcon>
-                <ListItemText><Button sx={{ marginLeft: "auto" }} variant="contained"  startIcon={< PersonIcon/>}>
+                <ListItemText><Button sx={{ marginLeft: "auto", color:"white" }} variant="contained" color="success" startIcon={< PersonIcon/>}>
                 Área do cliente
               </Button></ListItemText>
               </ListItemIcon>
@@ -90,7 +88,7 @@ export const DrawerComp = () => {
         sx={{ color: "white", }}
         onClick={() => setOpenDrawer(!openDrawer)}
       >
-        <MenuIcon color="primary" sx={{ padding: "0", paddingRight:"35px" }} />
+        <MenuIcon color="success" sx={{ padding: "0", paddingRight:"35px" }} />
       </IconButton>
     </React.Fragment>
   );

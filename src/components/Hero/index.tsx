@@ -1,16 +1,15 @@
-import { HeroTypes } from './types'
 import {
-    Content,BackgroundHero, TextHero,
+    BackgroundHero, TextHero,
     Title, Image
   } from './style'
-import { Box, Button, Container} from '@mui/material';
-
+  import {theme} from '../../themes/themes'
+import { Box, Button, Container, ThemeProvider} from '@mui/material';
 import heroimg from '../../imgs/heroimg.png';
 
-  export const Hero = (props: HeroTypes) => {
+  export const Hero = () => {
 
     return (
-      <Content>
+      <ThemeProvider theme={theme}>
         <BackgroundHero>
           <Container maxWidth='lg'>
             <Box display="flex" flexWrap= 'wrap' gap={2} justifyContent='center' >
@@ -19,13 +18,13 @@ import heroimg from '../../imgs/heroimg.png';
                 <TextHero>Com a nossa tecnologia, desenvolvemos soluções eficazes para a rotina diária do cliente. Nosso propósito é atendimento humanizado!</TextHero>
                 <Button variant='contained'>Agendar uma demonstração gratuita</Button> 
               </Box>
-              <Box my={4} display='flex' alignItems='center' p={2} justifyContent='center' >
+              <Box color={'primary'} my={4} display='flex' alignItems='center' p={2} justifyContent='center' >
                 <Image alt="Mountains" src={heroimg}  />
               </Box>
             </Box>
           </Container>
         </BackgroundHero>
-    </Content>
+      </ThemeProvider >
       
     );
   }

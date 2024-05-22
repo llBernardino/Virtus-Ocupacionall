@@ -3,14 +3,14 @@ import {
     Title,
     TextPlans, 
   } from './style'
-import { Box, Button, Container, Grid, } from '@mui/material';
-
+import { Box, Button, Container, Grid, ThemeProvider, } from '@mui/material';
+import {theme} from '../../themes/themes'
 
 
   export const Plans = () => {
 
     return ( 
-      <Content>
+      <ThemeProvider theme={theme}>
         <BackgroundPlans> 
           <Container maxWidth='lg'>
             <Box textAlign='center'>
@@ -19,13 +19,13 @@ import { Box, Button, Container, Grid, } from '@mui/material';
               </Title>
               <Grid container spacing={2} textAlign='center' justifyContent='center' alignItems='start'>
                 <Grid sm={12} md={5} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
-                  <Button variant='contained'>Fale com um especialista</Button> 
+                  <Button  color={'primary'} variant='contained'>Fale com um especialista</Button> 
                 </Grid>
                 <Grid sm={12} md={5} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center'> 
-                  <Button variant='contained'>Diagnóstico Gratuito e-Social</Button> 
+                  <Button  color={'primary'} variant='contained'>Diagnóstico Gratuito e-Social</Button> 
                 </Grid>
                 <Grid sm={12} md={5} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
-                  <Button variant='contained'>Orçamento Online</Button> 
+                  <Button  color={'primary'} variant='contained'>Orçamento Online</Button> 
                 </Grid>
               </Grid>
               <Box my={2}>
@@ -34,19 +34,19 @@ import { Box, Button, Container, Grid, } from '@mui/material';
               </Box>
               <Grid container spacing={2} textAlign='center' justifyContent='center' alignItems='start' my={2}>
                 <Grid sm={12} md={5} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
-                  <Button variant='outlined'>PLANO PREMIUM ECON​ÔMICO</Button> 
+                  <Button  color={'primary'} variant='outlined'>PLANO PREMIUM ECON​ÔMICO</Button> 
                 </Grid>
                 <Grid sm={12} md={5} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center'> 
-                  <Button variant='outlined'>PLANO PREMIUM INTER GERENCIAMENTO</Button> 
+                  <Button  color={'primary'} variant='outlined'>PLANO PREMIUM INTER GERENCIAMENTO</Button> 
                 </Grid>
                 <Grid sm={12} md={5} lg={4} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
-                  <Button variant='outlined'>PLANO PREMIUM MASTER GERENCIAMENTO</Button> 
+                  <Button  color={'primary'} variant='outlined'>PLANO PREMIUM MASTER GERENCIAMENTO</Button> 
                 </Grid>
               </Grid>
             </Box>
           </Container>
         </BackgroundPlans>
-    </Content>
+    </ThemeProvider >
       
     );
   }
