@@ -8,6 +8,7 @@ import { Services } from './components/services';
 import { Products } from './components/Products';
 import { Plans } from './components/Plans';
 import { Blog } from './components/Blog';
+import { Contact } from './components/Contact';
 
 export const App = () => {
   return (
@@ -21,6 +22,7 @@ export const App = () => {
           <Products/>
           <Plans/>
           <Blog/>
+          <Contact/>
       </BrowserRouter>
        
   );
