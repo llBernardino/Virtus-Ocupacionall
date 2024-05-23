@@ -20,35 +20,35 @@ import { CardG } from './comp/card';
       <Content>
         <BackgroundServices> 
           <Container maxWidth='lg'>
-            <Box textAlign='center'>
+            <Box textAlign='center' className='select'>
               <Title>
                 SERVIÇOS
               </Title>
             </Box>
             <Grid container spacing={2} textAlign='center' justifyContent='center' alignItems='start'>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select' >
                 <CardG image = {street} titleG = {'CIPA ONLINE'} textG = {'Treinamento de CIPA 100% online, com um sistema especializado para tornar essa experiência única.'}/>
               </Grid>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center'> 
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select'> 
                 <CardG image = {usershield} titleG = {'PGR E PCMSO'} textG = {'Medidas que evitam acidentes de trabalho e diminuem os riscos de doenças ocupacionais.'}/>
               </Grid>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select' >
                 <CardG image = {clipboard} titleG = {'E-SOCIAL'} textG = {'Validamos os documentos e legalidade junto ao E-social de forma automática.'}/>
               </Grid>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select' >
                 <CardG image = {book} titleG = {'TREINAMENTOS PRESENCIAIS E EAD'} textG = {'Primeiros Socorros , EPI’s, Trabalho em Altura, NR10, Reciclagem de Empilhadeira, entre outros.'}/>
               </Grid>
 
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center'> 
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select'> 
                 <CardG image = {desktop} titleG = {'AUTO AGENDAMENTO'} textG = {'Pode ser feito diretamente pelo colaborador, pela empresa…'}/>
               </Grid>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select' >
                 <CardG image = {signa} titleG = {'GESTÃO OCUPACIONAL E DE EXAMES'} textG = {'Atua na diminuição da margem de erro e redução de custos.'}/>
               </Grid>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center'> 
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select'> 
                 <CardG image = {medic} titleG = {'EXAMES MÉDICOS (ASO DIGITAL)'} textG = {'O médico assina digitalmente o ASO e em seguida sobe para a nossa plataforma.'}/>
               </Grid>
-              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' >
+              <Grid sm={12} md={5} lg={3} display='flex' alignItems='ceter' p={2} flexDirection = 'column' justifyContent='center' className='select' >
                 <CardG image = {wpforms} titleG = {'APLICAÇÃO DE TODAS AS NRs' } textG = {'A aplicação das NRs promove a integridade, o bem-estar e a satisfação dos trabalhadores.'}/>
               </Grid>
             </Grid>

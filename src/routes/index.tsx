@@ -7,11 +7,10 @@ import { Plans } from '../components/Plans';
 import { Blog } from '../components/Blog';
 import { Contact } from '../components/Contact';
 import { AppF } from '../page';
-
 export const AppRoutes = () => {
 
   return (
-    <Routes>
+    <Routes >
       <Route path="/pagina-inicial" element={<AppF/>}/>
       <Route path="*" element={<Navigate to="/pagina-inicial" />} />
       <Route path="/Hero" element={<AppF/>} />

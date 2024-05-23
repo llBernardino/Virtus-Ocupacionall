@@ -1,13 +1,9 @@
 import styled from '@emotion/styled'
 
-export const Content = styled.div`
 
-`
 export const BackgroundAbout = styled.div`
     padding:60px 0px;
     display: flex;
-
-    
 `
 export const Title = styled.h2`
     font-family: "Roboto", Sans-serif;

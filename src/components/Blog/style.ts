@@ -1,8 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Content = styled.div`
-  
-`
+
 export const BackgroundBlog = styled.div`
     padding:60px 0px;
     display: flex;

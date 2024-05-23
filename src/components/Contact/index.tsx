@@ -1,5 +1,5 @@
 import {
-    Content,BackgroundContact, 
+    BackgroundContact, 
     Title,
     TextContact, Image,
     Titlesm,
@@ -15,18 +15,18 @@ import { Box,  Button,  Container, Grid, TextField, ThemeProvider, } from '@mui/
       <ThemeProvider theme={theme}>
         <BackgroundContact> 
           <Container maxWidth='lg'>
-            <Box textAlign='center'>
+            <Box textAlign='center' className='select'>
               <Title>
                 CONTATO
               </Title>
             </Box>
               <Grid container justifyContent={'center'}>
-                <Grid sm={12} md={5} lg={4} my={3} >
+                <Grid sm={12} md={5} lg={4} my={3} className='select' >
                   <Image alt="Virtus" src={gvirtusimg} width={62} height={73} />
                   <Titlesm>MANTENHA CONTATO</Titlesm>
                   <TextContact>Caso queira mais informações entre em contato através do email, telefone ou deixe mensagem por meio do formulário de contato. Você será contatado o mais breve possível.</TextContact>
                 </Grid>
-                <Grid sm={12} md={5} lg={4} my={3} > 
+                <Grid sm={12} md={5} lg={4} my={3} className='select' > 
                   <Titlesm>INFORMAÇÕES:</Titlesm>
                   <TextContactB>ENDEREÇO:</TextContactB>
                   <TextContact>Rua do Bosque, 1621 CEP 1136001 - Barra Funda - São Paulo/SP</TextContact>
@@ -39,7 +39,7 @@ import { Box,  Button,  Container, Grid, TextField, ThemeProvider, } from '@mui/
                   <TextContact>Segunda à Quinta – 8h às 18h</TextContact>
                   <TextContact>Sexta – 8h às 17h</TextContact>
                 </Grid>
-                <Grid sm={12} md={5} lg={4} px={5}>
+                <Grid sm={12} md={5} lg={4} px={5} className='select'>
                   <TextField
                     id="nome"
                     label="Nome"

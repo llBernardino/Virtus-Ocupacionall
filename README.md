@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Título do Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GRUPO VIRTUS SITE EMPRESARIAL
 
-## Available Scripts
+## Dependências
 
-In the project directory, you can run:
+- **@emotion/react**: ^11.11.4
+- **@emotion/styled**: ^11.11.5
+- **@mui/icons-material**: ^5.15.18
+- **@mui/joy**: ^5.0.0-beta.36
+- **@mui/material**: ^5.15.18
+- **@testing-library/jest-dom**: ^5.17.0
+- **@testing-library/react**: ^13.4.0
+- **@testing-library/user-event**: ^13.5.0
+- **@types/jest**: ^27.5.2
+- **@types/node**: ^16.18.97
+- **@types/react**: ^18.3.2
+- **@types/react-dom**: ^18.3.0
+- **react**: ^18.3.1
+- **react-dom**: ^18.3.1
+- **react-router-dom**: 6
+- **react-scripts**: 5.0.1
+- **typescript**: ^4.9.5
+- **web-vitals**: ^2.1.4
 
-### `npm start`
+## Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Antes de começar, certifique-se de ter o Node.js e o npm instalados em seu sistema. Você pode baixá-los e instalá-los a partir do [site oficial do Node.js](https://nodejs.org/).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone este repositório para o seu computador usando o comando abaixo:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/llBernardino/Virtus-Ocupacionall.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navegue até o diretório do projeto
+    cd my-app
+    instale as dependências do projeto usando npm:
+    npm install
 
-### `npm run build`
+3. Por fim, inicie o servidor de desenvolvimento:
+    npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Página Inicial
+Ao acessar a SPA, os visitantes serão recebidos pela página inicial, que apresenta uma visão geral dos serviços oferecidos pela empresa de saúde laboral.
+Nesta página, os usuários podem encontrar informações sobre os serviços, como exames médicos ocupacionais, programas de promoção da saúde, e treinamentos para empresas.
+2. Exploração dos Serviços
+Os usuários podem navegar pela SPA para explorar os diferentes serviços oferecidos pela empresa.
+Cada serviço é apresentado em uma página dedicada, contendo detalhes sobre os benefícios, procedimentos e custos associados.
+3. Agendamento de Consultas(.whatsapp.)
+Os clientes têm a opção de agendar consultas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Recursos Educacionais
+Além dos serviços oferecidos, a SPA também fornece recursos educacionais sobre saúde ocupacional e bem-estar no local de trabalho.
+Os usuários podem acessar artigos, vídeos e outros materiais informativos para ajudá-los a entender melhor as questões de saúde laboral e a promover um ambiente de trabalho saudável.
+5. Contato e Suporte
+A SPA inclui uma seção de contato, onde os usuários podem encontrar informações de contato da empresa, como endereço, telefone e e-mail.
+Eles também podem preencher um formulário de contato para fazer perguntas ou solicitar mais informações sobre os serviços oferecidos.
 
-### `npm run eject`
+## Créditos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Desenvolvido unicamente por Cauã Bernardino lima
+para o Desafio Front-end da SOTEC SAÚDE
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+llbernardinz Sistem.
